@@ -1,5 +1,6 @@
 <?php 
-
+//In this we do all configuration In database
+//Web title and debug mode
 define("WEBSITE_TITLE", 'MY SHOP');
 
 //database name

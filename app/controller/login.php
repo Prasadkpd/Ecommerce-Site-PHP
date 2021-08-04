@@ -4,7 +4,8 @@ Class Login extends Controller
 {
   public function index()
   {
-    $data['page_title'] = "Home22";
+    //this call the login view and url becaome the Home
+    $data['page_title'] = "login";
     $this->view("login",$data);
   }  
 }
